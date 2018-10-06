@@ -1,0 +1,263 @@
+/*公共样式*/
+.w{
+  width:1230px;
+  margin:0 auto;
+}
+/*头部开始*/
+.header-wrap{
+	float:left;
+	width:100%;
+	height:88px;
+}
+.header-wrap .header{
+    height:88px;
+}
+.header-wrap .header a img{
+	width:190px;
+	height:27px;
+    margin-top:30px;
+	border:1px solid transparent;
+}
+.login-banner-wrap{
+	float:left;
+	width:100%;
+	height:600px;
+	background:#4533FB;
+}
+.login-banner-wrap .login-banner{
+    position: relative;
+	height:600px;
+}
+.login-banner-wrap .login-banner img{
+    position: absolute;
+}
+/*密码登录 开始*/
+.login-banner-wrap .login-banner .Enter{
+    position: absolute;
+    right:65px;
+    top:100px;
+    width:350px;
+    height:405px;
+    background:#fff;
+    /*display: none;*/
+}
+.login-banner .Enter .login-tip{
+    position:absolute;
+    left:131px;
+    top:11px;
+    width:153px;
+    height:28px;
+    border:1px solid #e4ae20;
+    background:#FEFCEE;
+    /*z-index:10;*/
+}
+.login-banner .Enter .login-tip .icon-dunpai,.login-banner .Enter .login-tip .sao-safe{
+    float: left;
+    color:#e4ae20;
+    margin:0px -3px 0px 16px;
+    line-height:28px; 
+}
+.login-banner .Enter .poptip{
+    position: absolute;
+    left:280px;
+    top:21px;
+    width:8px;
+    height:8px;
+    border-left:1px solid transparent;
+    border-bottom:1px solid transparent;
+    border-right:1px solid #e4ae20;
+    border-top:1px solid #e4ae20;
+    transform: rotate(45deg);
+    background:#FEFCEE;
+    display: inline-block;
+    /*z-index: 15;*/
+}
+.login-banner .Enter .icon-wx_l{
+    position: absolute;
+    color:red;
+    font-size: 60px;
+    right:0px;
+    top:-5px;
+}
+.login-banner .Enter .static-form{
+    position: absolute;
+    left:25px;
+    top:43px;
+    width:298px;
+    height:258px;
+    /*border:1px solid red;*/
+}
+.login-banner .Enter .static-form h3{
+    color:black;
+    font-size:16px;
+}
+.login-banner .Enter .field{
+    position: relative;
+    width:298px;
+    height:41px;
+    margin-top:20px;
+    /*border:1px solid red;*/
+}
+.Enter .field .field-input{
+    position: absolute;
+    width:298px;
+    height:41px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+}
+.Enter .field .username{
+    position:absolute;
+    top:1px;
+    width:40px;
+    height:39px;
+    background:#DDDDDD;
+}
+.Enter .field .username .icon-huiyuan,.Enter .field .username .icon-ft-password{
+    font-size: 22px;
+    display: inline-block;
+    margin:4px 0px 0px 7px;
+}
+.static-form button{
+    position: absolute;
+    width:298px;
+    height:41px;
+    background:#FF0036;
+    border:0px;
+    color:#fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.static-form .login-links{
+    position: absolute;
+    top:230px;
+    width:298px;
+    height:20px;
+    /*border:1px solid blue;*/
+}
+.static-form .login-links .login-links-span{
+    float:right;
+    margin:0px 10px 0px 0px;
+    /*padding:0px 0px 0px 0px;*/
+}
+/*密码登录 结束*/
+
+/*二维码登录 开始*/
+.login-banner-wrap .login-banner .Code{
+    position: absolute;
+    right:65px;
+    top:100px;
+    width:350px;
+    height:405px;
+    background:#fff;
+    display: none;
+}
+.login-banner .Code .icon-imagevector{
+    position: absolute;
+    color:red;
+    font-size: 50px;
+    right:0px;
+    top:-5px;
+}
+.login-banner .Code .qrcode-login{
+    position:relative;
+    left:25px;
+    top:42px;
+    width:298px;
+    height:286px;
+    /*border:1px solid red;*/
+}
+.login-banner .Code .qrcode-login h3{
+    position: absolute;
+    color:black;
+    font-size:16px;
+}
+.login-banner .Code .qrcode-login .qrcode-img{
+    position: absolute;
+    left:78px;
+    top:37px;
+
+    width:140px;
+    height:140px;
+    /*border:1px solid red;*/
+}
+.login-banner .Code .qrcode-login .icon-saoyisao{
+    position: absolute;
+    left:57px;
+    top:200px;
+    color:#FF0036;
+    font-size:34px;
+    /*border:1px solid red;*/
+}
+.login-banner .Code .qrcode-login p{
+    position: absolute;
+    left:100px;
+    top:205px;
+    width:144px;
+    height:36px;
+    /*border:1px solid red;*/
+}
+.login-banner .Code .qrcode-login p a{
+    color:#FF0036;
+}
+.login-banner .Code .qrcode-login .login-links{
+    position: absolute;
+    right:0px;
+    top:260px;
+    width:298px;
+    height:20px;
+    /*border:1px solid red;*/
+}
+.qrcode-login .login-links .login-links-span{
+    float:right;
+    padding:0px 0px 0px 20px;
+}
+/*二维码登录 结束*/
+
+
+
+
+/*底部  开始 */
+.base-wrap{
+    float:left;
+    width:100%;
+    height:190.33px;
+    margin-top:40px;
+    /*background:#000000;*/
+}
+.base-wrap .base{
+    height:190.33px;
+    /*border:1px solid red;*/
+}
+.base-wrap .base .tmallinfo{
+    width:1230px;
+    height:34.44px;
+\
+    /*border:1px solid red;*/
+}
+.base-wrap .base .tmallinfo ul{
+    height:34.44px;
+    line-height: 34.44px;
+}
+.base-wrap .base .tmallinfo ul li{
+    float:left;
+    margin:0px 7px 0px 0px;
+    /*border:1px solid blue;*/
+}
+.base-wrap .base .tmallinfo ul li a{
+    color:#000;
+}
+.base-wrap .base .copyright{
+    width:1230px;
+    height:118.44px;
+    color:#666;
+    /*border:1px solid orange;*/
+}
+.base-wrap .base .copyright a{
+    margin-right:65px;
+    color:#a4a4a4;
+}
+.base-wrap .base .copyright .jlogo{
+    margin-top:-1px;
+}
+/*底部  结束 */
